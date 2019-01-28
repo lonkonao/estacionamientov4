@@ -224,15 +224,16 @@ public class estacionamiento extends javax.swing.JFrame {
             
             
             String codigo = ye.format(now)+mo.format(now)+da.format(now)+ho.format(now)+mi.format(now)+se.format(now);
-            JOptionPane.showMessageDialog(rootPane, "Patente Ingresada : " + patente+" fecha: "+fechaEntrada+" hora: "+horEntrada+" codigo"
-                    + ": "+codigo);
-            
+           
             
             txtPatente.setText("");
             
             
-            jPrint.setVisible(true);
-            jPrint.setSize(400, 200);
+            
+            //abrir j para imprimir voucher
+            
+           // jPrint.setVisible(true);
+           // jPrint.setSize(400, 200);
       
            
             
